@@ -1,6 +1,6 @@
 'use strict';
 const MongoConfig = require('./mongo_config')
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcrypt-nodejs');
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 var datetime = require('node-datetime');
